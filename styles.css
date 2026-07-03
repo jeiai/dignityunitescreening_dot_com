@@ -70,19 +70,17 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   color: var(--ink);
   font-family: Inter, Arial, sans-serif;
   font-weight: 800;
   text-decoration: none;
 }
 
-.logo-placeholder {
-  width: 46px;
-  height: 46px;
-  border: 2px dashed #9eb1ad;
-  border-radius: var(--radius);
-  background: linear-gradient(135deg, rgba(9, 125, 114, 0.08), rgba(217, 54, 72, 0.08));
+.site-logo {
+  width: clamp(156px, 20vw, 230px);
+  height: auto;
+  max-height: 58px;
+  object-fit: contain;
 }
 
 .site-nav {
@@ -593,9 +591,9 @@ textarea:focus {
 }
 
 @media (max-width: 560px) {
-  .brand span:last-child {
-    max-width: 190px;
-    line-height: 1.15;
+  .site-logo {
+    width: 148px;
+    max-height: 48px;
   }
 
   .section {
