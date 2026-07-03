@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact Dignity Unite Screening in Elizabeth, NJ.">
+    <title>Dignity Unite Screening | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Dignity Unite Screening home">
+        <!-- Replace this placeholder with the uploaded logo later. -->
+        <span class="logo-placeholder" aria-hidden="true"></span>
+        <span>Dignity Unite Screening</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section">
+        <p class="eyebrow">Contact Us</p>
+        <h1>Janelle Henry</h1>
+        <p class="lead">Elizabeth, NJ, United States</p>
+      </section>
+
+      <section class="section contact-layout">
+        <aside class="contact-card">
+          <h2>Contact Us:</h2>
+          <p><strong>Janelle Henry</strong></p>
+          <p><a href="tel:9734773119">973-477-3119</a></p>
+          <p><a href="mailto:Janelle@dignityunitescreening.com">Janelle@dignityunitescreening.com</a></p>
+          <p>Elizabeth, NJ, United States</p>
+        </aside>
+
+        <form class="contact-form" id="contact-form" action="mailto:Janelle@dignityunitescreening.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="Name" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="Email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" rows="7" required></textarea>
+          </div>
+          <button class="button primary" type="submit">Contact Us</button>
+        </form>
+      </section>
+
+      <section class="section map-section" aria-label="Location map">
+        <iframe
+          title="Elizabeth, NJ, United States map"
+          src="https://maps.google.com/maps?q=Elizabeth%2C%20NJ%2C%20United%20States&amp;output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Dignity Unite Screening</strong>
+        <p>Mobile phlebotomy and health screening services.</p>
+      </div>
+      <div>
+        <a href="tel:9734773119">973-477-3119</a>
+        <a href="mailto:Janelle@dignityunitescreening.com">Janelle@dignityunitescreening.com</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
